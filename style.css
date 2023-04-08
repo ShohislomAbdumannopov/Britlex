@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Styles Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* Global Styles End */
+
+/* Header Styles Start */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 10px;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    gap: 11px;
+    margin-top: 10px;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 10px;
+}
+
+.navbar__links button {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin-left: 130px;
+}
+
+.navbar__links button:hover {
+    background: #263238;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.navbar__links {
+    gap: 25px;
+    margin-top: 24px;
+}
+
+.links_item {
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* Header Styles End */
+
+/* Home Styles Start */
+
+.home__section {
+    height: 100vh;
+}
+
+.home__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__tittle img {
+    margin-left: 400px;
+    margin-top: -90px;
+}
+
+.home__tittle h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.home__tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-bottom: 50px;
+}
+
+.home__tittle button {
+    width: 300px;
+    height: 88px;
+    background: #263238;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.home__tittle button:hover {
+    border: 2px solid #263238;
+    background: transparent;
+    color: black;
+}
+
+/* Home Styles End */
+
+/* Skill Styles Start */
+
+.skill__section {
+    height: 170vh;
+    background-color: #fff;
+}
+
+.skill_card {
+    width: 435px;
+    height: 894px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    padding-left: 43px;
+}
+
+.padding {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    padding-left: 43px;
+    margin-top: 43px;
+}
+
+.skill__tittle {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.club {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8F95A5;
+    padding-left: 43px;
+    margin-bottom: 36px !important;
+}
+
+.btn {
+    width: 230px;
+    height: 60px;
+    background: #263238;
+    border-radius: 5px;
+    margin-left: 43px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    border: 2px solid #263238;
+    background: transparent;
+    color: black;
+
+}
+
+.skill___card {
+    width: 885px;
+    height: 343px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-left: 485px;
+    margin-top: -360px;
+}
+
+.skill__card {
+    width: 450px;
+    height: 531px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-top: -360px;
+}
+
+.skill__card img {
+    float: right;
+}
+
+.skill____card {
+    width: 434px;
+    height: 531px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-top: -360px;
+}
+
+
+.skill__card button {
+    width: 230px;
+    height: 60px;
+    background: #263238;
+    border-radius: 5px;
+    margin-top: -33px;
+    margin-left: 43px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.skill__card button:hover {
+    border: 2px solid #263238;
+    background: transparent;
+    color: black;
+
+}
+
+.skill___card img {
+    float: right;
+}
+
+.skill__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.container__fluid {
+    width: 1400px;
+    margin-left: 100px;
+}
+
+/* Skill Styles End */
+
+/* About Styles Start */
+
+.about__section {
+    height: 100vh;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__tittle ul {
+    display: flex;
+    align-items: center;
+}
+
+.li {
+    margin-left: 100px;
+}
+
+.li h1 {
+    margin-left: 25px;
+}
+
+.about__tittle li p {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+.about__tittle li h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #2A3246;
+    margin-top: 50px;
+}
+
+.about__tittle h1 {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+
+.about__tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-top: 25px;
+}
+
+/* About Styles end */
+
+/* Pricing Styles Start */
+
+.pricing__section {
+    height: 150vh;
+}
+
+.pricing__tittle {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 100px;
+
+}
+
+.h1 {
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.para {
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+#btn {
+    margin-left: 40px;
+}
+
+#h1 {
+    margin-top: -52px;
+    margin-left: 50px;
+}
+
+#p {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.bnt {
+    margin-left: 50px;
+}
+
+.pricing__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: -30px;
+}
+
+.pricing__card__body h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    margin-bottom: 20px;
+}
+
+.pricing__card__body p {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #8F95A5;
+}
+
+.pricing__card__header {
+    margin-bottom: 50px;
+}
+
+.pricing__card__body button {
+    width: 240px;
+    height: 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    border: none;
+}
+
+.pricing__card__body button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+}
+
+/* Pricing Styles end */
+
+/* Contact Styles Start */
+
+.contact__section {
+    height: 100vh;
+}
+
+.contact__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__tittle h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    margin-left: 100px;
+}
+
+.contact__tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+
+#email {
+    width: 450px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    margin-left: 100px;
+    padding-left: 30px;
+    margin-right: 15px;
+}
+
+#submit {
+    width: 264px;
+    height: 80px;
+    background: #263238;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#submit:hover {
+    border: 2px solid #263238;
+    background: transparent;
+    color: black;
+}
+
+hr {
+    width: 1338px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-bottom: 35px;
+}
+
+.footer__section {
+    height: 150px;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__tittle {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8F95A5;
+}
+
+.footer__logo{
+    margin-top: 35px;
+}
+
+.pala{
+    margin-right: 100px;
+}
+
+.footer__tittle{
+    margin-top: 55px;
+}
+
+/* Contact Styles End */
